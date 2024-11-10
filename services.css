@@ -1,0 +1,71 @@
+/* Center .main container vertically and horizontally on the page */
+.main {
+    width: 100%; /* Take full width of the page */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ser-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically within .main */
+    align-items: center;
+}
+
+.top-div-ser {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes-con {
+    width: 100%; 
+    margin: auto; 
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 250px;
+    height: 200px;
+    background-color: #D8BFDB;
+    border: 2px solid black;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.titile-ser {
+    font-size: 30px;
+    text-align: center; /* Center text within the heading */
+}
+
+.des-ser {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ser-icon {
+    font-size: 120px;
+}
+
+/* Responsive styling */
+@media screen and (min-width: 100px) and (max-width: 750px) {
+    .top-div-ser {
+        width: 80%;
+    }
+    .box {
+        width: 90%;
+    }
+}

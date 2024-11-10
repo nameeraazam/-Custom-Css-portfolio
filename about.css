@@ -1,0 +1,19 @@
+.social-icon{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.s-icon1{
+    font-size: 20px;
+    color: darkblue;
+    margin: 4px;
+}
+
+.s-icon2{
+   font-size: 20px;
+   color: #c51077;
+   margin: 4px ;
+}
+
